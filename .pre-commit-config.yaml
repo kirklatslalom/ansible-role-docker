@@ -72,7 +72,7 @@ repos:
       - id: ansible-lint
         name: Ansible-lint
         description: This hook runs ansible-lint.
-        entry: ansible-lint --force-color ansible
+        entry: ansible-lint --force-color
         language: python
         # do not pass files to ansible-lint, see:
         # https://github.com/ansible-community/ansible-lint/issues/611
